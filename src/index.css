@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Lora", Cambria, Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", SFMono-Regular, monospace;
+  
+  --color-primary-navy: #0d233a;
+  --color-accent-amber: #e0a91d;
+  --color-tigray-red: #d11215;
+  --color-tigray-gold: #fcc314;
+}
+
+/* Custom visual accent patterns representing traditional Ge'ez/Tigray borders and tapestry motifs */
+.habesha-border {
+  background-image: repeating-linear-gradient(
+    45deg,
+    #d11215 0px,
+    #d11215 10px,
+    #fcc314 10px,
+    #fcc314 20px,
+    #1d6042 20px,
+    #1d6042 30px
+  );
+  height: 6px;
+  width: 100%;
+}
+
+.habesha-pattern-bg {
+  background-color: #0d233a;
+  background-image: radial-gradient(rgba(252, 195, 20, 0.15) 1px, transparent 0),
+                    radial-gradient(rgba(209, 18, 21, 0.15) 1px, transparent 0);
+  background-size: 16px 16px;
+  background-position: 0 0, 8px 8px;
+}
+
+/* Soft scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

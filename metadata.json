@@ -1,0 +1,6 @@
+{
+  "name": "Tigray Regional Education Office",
+  "description": "Official portal for the Tigray Regional Education Office (Ethiopia), serving students, teachers, parents, and administrators with public portals, exam results, school directories, and a robust administrative dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
